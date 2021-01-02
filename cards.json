@@ -1,465 +1,472 @@
 {
-  "mysticmod:AbstractMysticCard": {
-    "NAME": "",
-    "DESCRIPTION": "",
-    "UPGRADE_DESCRIPTION": "",
-    "EXTENDED_DESCRIPTION": [
-      "Spell",
-      "Arte",
-      "This Skill is also considered a [#5299DC]Spell[], and will grant one stack of [#5299DC]Power[].",
-      "This Skill is also considered an [#FF5252]Arte[], and will grant one stack of [#FF5252]Poise[].",
-      "This Attack is also considered a [#5299DC]Spell[], and will grant one stack of [#5299DC]Power[].",
-      "This Attack is also considered an [#FF5252]Arte[], and will grant one stack of [#FF5252]Poise[].",
-      "Powerful",
-      "Poised",
-      "Has an additional effect if you have a stack of [#5299DC]Power[].",
-      "Has an additional effect if you have a stack of [#FF5252]Poise[]."
-    ]
-  },
-  "mysticmod:AcidSplash": {
-    "NAME": "Acid Splash",
-    "DESCRIPTION": "mysticmod:Cantrip. NL Deal !D! damage. Draw a card.",
-    "UPGRADE_DESCRIPTION": ""
-  },
-  "mysticmod:Alacrity": {
-    "NAME": "Alacrity",
-    "DESCRIPTION": "Gain !B! Block. NL [#FF5252]Poised[]: Gain [E] next turn.",
-    "UPGRADE_DESCRIPTION": ""
-  },
-  "mysticmod:AllIn": {
-    "NAME": "All In",
-    "DESCRIPTION": "Deal !D! damage. NL Become Weak for !M! turns. Weak amount is reduced for each stack of [#5299DC]Power[].",
-    "UPGRADE_DESCRIPTION": ""
-  },
-  "mysticmod:ArcaneAccuracy": {
-    "NAME": "Metamagic",
-    "DESCRIPTION": "Gain !M! mysticmod:Spellpower.",
-    "UPGRADE_DESCRIPTION": ""
-  },
-  "mysticmod:ArcaneDodge": {
-    "NAME": "Arcane Dodge",
-    "DESCRIPTION": "Gain !B! Block. NL [#5299DC]Powerful[]: Gain an additional !M! Block.",
-    "UPGRADE_DESCRIPTION": ""
-  },
-  "mysticmod:BladeBurst": {
-    "NAME": "Blade Burst",
-    "DESCRIPTION": "Lose !M! Strength. Deal !D! damage. Add a *Magic *Weapon to your discard pile. NL Exhaust.",
-    "UPGRADE_DESCRIPTION": "Lose !M! Strength. Deal !D! damage. Add a *Magic *Weapon+ to your discard pile. NL Exhaust."
-  },
-  "mysticmod:BladeMaster": {
-    "NAME": "Blade Master",
-    "DESCRIPTION": "Return up to !M! [#FF5252]Artes[] from your discard pile to your hand.",
-    "UPGRADE_DESCRIPTION": ""
-  },
-  "mysticmod:BladedDash": {
-    "NAME": "Bladed Dash",
-    "DESCRIPTION": "Deal !D! damage. NL [#5299DC]Powerful[]: Gain !B! Block.",
-    "UPGRADE_DESCRIPTION": ""
-  },
-  "mysticmod:BulkUp": {
-    "NAME": "Bulk Up",
-    "DESCRIPTION": "Gain !B! Block, then Exhaust a random card in your hand. NL [#5299DC]Powerful[]: Choose if and what to Exhaust.",
-    "UPGRADE_DESCRIPTION": ""
-  },
-  "mysticmod:ChargedParry": {
-    "NAME": "Charged Parry",
-    "DESCRIPTION": "Gain !B! Block. NL [#5299DC]Powerful[]: Gain !M! Strength this turn.",
-    "UPGRADE_DESCRIPTION": ""
-  },
-  "mysticmod:ClosingBarrage": {
-    "NAME": "Closing Barrage",
-    "DESCRIPTION": "Deals Y damage X times, where Y is equal to your total [#5299DC]Power[] and [#FF5252]Poise[] multiplied by !M!.",
-    "UPGRADE_DESCRIPTION": "Deals Y damage X+1 times, where Y is equal to your total [#5299DC]Power[] and [#FF5252]Poise[] multiplied by !M!.",
-    "EXTENDED_DESCRIPTION": [" NL ( !D! damage)"]
-  },
-  "mysticmod:ComboCaster": {
-    "NAME": "Combo Caster",
-    "DESCRIPTION": "At the start of each turn, add a random mysticmod:Cantrip to your hand and draw 1 less card.",
-    "UPGRADE_DESCRIPTION": ""
-  },
-  "mysticmod:ComponentsPouch": {
-    "NAME": "Components Pouch",
-    "DESCRIPTION": "Deal !D! damage, then deal !D! damage for each [#5299DC]Spell[] in your hand. NL For !M! turns, all Defends count as [#5299DC]Spells[].",
-    "UPGRADE_DESCRIPTION": "",
-    "EXTENDED_DESCRIPTION": [
-      " NL (You have ",
-      " [#5299DC]Spell[]).",
-      " [#5299DC]Spells[])."
-    ]
-  },
-  "mysticmod:CorrosiveTouch": {
-    "NAME": "Corrosive Touch",
-    "DESCRIPTION": "Deal !D! damage.",
-    "UPGRADE_DESCRIPTION": "Deal !D! damage. NL Begin next turn with one [#5299DC]Power[]."
-  },
-  "mysticmod:CureLightWounds": {
-    "NAME": "Cure Light Wounds",
-    "DESCRIPTION": "Gain !M! Regen. NL Exhaust.",
-    "UPGRADE_DESCRIPTION": "",
-    "EXTENDED_DESCRIPTION": ["Cure Moderate Wounds"]
-  },
-  "mysticmod:Daze": {
-    "NAME": "Diversion",
-    "DESCRIPTION": "Apply !M! Vulnerable. NL [#FF5252]Poised[]: Apply !M! Weak.",
-    "UPGRADE_DESCRIPTION": ""
-  },
-  "mysticmod:Dedication": {
-    "NAME": "Dedication",
-    "DESCRIPTION": "Gain !M! Strength and Dexterity. NL Can be upgraded any number of times.",
-    "UPGRADE_DESCRIPTION": ""
-  },
-  "mysticmod:Defend_Mystic": {
-    "NAME": "Defend",
-    "DESCRIPTION": "Gain !B! Block.",
-    "UPGRADE_DESCRIPTION": ""
-  },
-  "mysticmod:Discipline": {
-    "NAME": "Discipline",
-    "DESCRIPTION": "Begin each turn with !M! [#5299DC]Power[] and [#FF5252]Poise[].",
-    "UPGRADE_DESCRIPTION": ""
-  },
-  "mysticmod:Disengage": {
-    "NAME": "Disengage",
-    "DESCRIPTION": "Gain !B! Block. NL Begin next turn with one [#FF5252]Poise[].",
-    "UPGRADE_DESCRIPTION": ""
-  },
-  "mysticmod:Disintegrate": {
-    "NAME": "Disintegrate",
-    "DESCRIPTION": "Deal !D! damage. NL Ignores Block.",
-    "UPGRADE_DESCRIPTION": ""
-  },
-  "mysticmod:DiviningBlow": {
-    "NAME": "Divining Blow",
-    "DESCRIPTION": "Deal !D! damage. NL [#5299DC]Powerful[]: Draw 1 card for each stack of [#5299DC]Power[].",
-    "UPGRADE_DESCRIPTION": "",
-    "EXTENDED_DESCRIPTION": [
-      " NL (",
-      " Card.)",
-      " Cards.)"
-    ]
-  },
-  "mysticmod:Doublecast": {
-    "NAME": "Doublecast",
-    "DESCRIPTION": "This turn, your next [#5299DC]Spell[] is played twice.",
-    "UPGRADE_DESCRIPTION": "This turn, your next two [#5299DC]Spells[] are played twice."
-  },
-  "mysticmod:EarthenWall": {
-    "NAME": "Earthen Wall",
-    "DESCRIPTION": "Gain !B! Block. Gain !M! Dexterity this turn.",
-    "UPGRADE_DESCRIPTION": ""
-  },
-  "mysticmod:EbbAndFlow": {
-    "NAME": "Ebb and Flow",
-    "DESCRIPTION": "Each turn, draw 1 card, then discard 1 card unless you have a [#5299DC]Spell[] and 1 card unless you have an [#FF5252]Arte[].",
-    "UPGRADE_DESCRIPTION": "Innate. NL Each turn, draw 1 card, then discard 1 card unless you have a [#5299DC]Spell[] and 1 card unless you have an [#FF5252]Arte[]."
-  },
-  "mysticmod:EnchantedMoulinet": {
-    "NAME": "Enchanted Moulinet",
-    "DESCRIPTION": "Deal !D! damage to ALL enemies. For each enemy that dies, gain [E] .",
-    "UPGRADE_DESCRIPTION": ""
-},
-  "mysticmod:EnergizedRift": {
-    "NAME": "Energized Rift",
-    "DESCRIPTION": "[#FF5252]Poised[]: Add a random mysticmod:Cantrip to your draw pile for each stack of [#FF5252]Poise[]. NL Exhaust.",
-    "UPGRADE_DESCRIPTION": "[#FF5252]Poised[]: Add a random Upgraded mysticmod:Cantrip to your draw pile for each stack of [#FF5252]Poise[]. NL Exhaust.",
-    "EXTENDED_DESCRIPTION": [
-      " NL (",
-      " mysticmod:Cantrip. )",
-      " mysticmod:Cantrips. )",
-      "I don't have any [#FF5252]Poise[]!"
-    ]
-  },
-  "mysticmod:Feint": {
-    "NAME": "Feint",
-    "DESCRIPTION": "Deal !D! damage. Add a random mysticmod:Cantrip to your draw pile.",
-    "UPGRADE_DESCRIPTION": "Deal !D! damage. Add a random Upgraded mysticmod:Cantrip to your draw pile."
-  },
-  "mysticmod:Fireball": {
-    "NAME": "Fireball",
-    "DESCRIPTION": "Deal !D! damage. NL [#FF5252]Poised[]: Deal it to ALL enemies.",
-    "UPGRADE_DESCRIPTION": ""
-  },
-  "mysticmod:FiveFootStep": {
-    "NAME": "5 Foot Step",
-    "DESCRIPTION": "Deal !D! damage. NL [#5299DC]Powerful[]: Shuffle this card into your draw pile.",
-    "UPGRADE_DESCRIPTION": ""
-  },
-  "mysticmod:FloatingDisk": {
-    "NAME": "Floating Disk",
-    "DESCRIPTION": "Gain !B! Block. NL [#FF5252]Poised[]: Gain !M! Dexterity. Exhaust.",
-    "UPGRADE_DESCRIPTION": ""
-  },
-  "mysticmod:Flourish": {
-    "NAME": "Flourish",
-    "DESCRIPTION": "Costs [E] less for each stack of [#5299DC]Power[] and [#FF5252]Poise[]. Deal !D! damage twice, then double the [#5299DC]Power[] and [#FF5252]Poise[] amounts.",
-    "UPGRADE_DESCRIPTION": ""
-  },
-  "mysticmod:Flurry": {
-    "NAME": "Flurry",
-    "DESCRIPTION": "Deal !D! damage !M! times. NL [#5299DC]Powerful[]: !mysticmod:M2! times instead",
-    "UPGRADE_DESCRIPTION": ""
-  },
-  "mysticmod:Fly": {
-    "NAME": "Fly",
-    "DESCRIPTION": "Gain !B! Block. NL [#FF5252]Poised[]: Block is not removed at the start of your next turn.",
-    "UPGRADE_DESCRIPTION": ""
-  },
-  "mysticmod:GeminiForm": {
-    "NAME": "Gemini Form",
-    "DESCRIPTION": "For the first [#5299DC]Spell[] and [#FF5252]Arte[] you play each turn, play a random card of the other type from your draw pile. NL Ethereal.",
-    "UPGRADE_DESCRIPTION": "For the first [#5299DC]Spell[] and [#FF5252]Arte[] you play each turn, play a random card of the other type from your draw pile."
-  },
-  "mysticmod:Grapple": {
-    "NAME": "Grapple",
-    "DESCRIPTION": "Stun the target. Can't use the same turn as an Attack. NL Ethereal. Exhaust.",
-    "UPGRADE_DESCRIPTION": "Stun the target. Can't use the same turn as an Attack. NL Exhaust."
-  },
-  "mysticmod:Grease": {
-    "NAME": "Grease",
-    "DESCRIPTION": "Target enemy loses !M! Strength this turn. NL [#FF5252]Poised[]: ALL enemies instead.",
-    "UPGRADE_DESCRIPTION": ""
-  },
-  "mysticmod:GreaterInvisibility": {
-    "NAME": "Greater Invisibility",
-    "DESCRIPTION": "Gain 1 Intangible. NL Exhaust, Ethereal. NL [#FF5252]Poised[]: Does not Exhaust if you played !M! [#FF5252]Artes[] this turn.",
-    "UPGRADE_DESCRIPTION": "Gain 1 Intangible. NL Exhaust, Ethereal. NL [#FF5252]Poised[]: Does not Exhaust if you played !M! [#FF5252]Arte[] this turn."
-  },
-  "mysticmod:IllusionOfCalm": {
-    "NAME": "Illusion Of Calm",
-    "DESCRIPTION": "Gain !B! Block. NL Become Frail for !M! turns. Frail amount is reduced for each stack of [#FF5252]Poise[].",
-    "UPGRADE_DESCRIPTION": ""
-  },
-  "mysticmod:Haste": {
-    "NAME": "Haste",
-    "DESCRIPTION": "For X turns, draw 1 card, gain [E] , deal 1 more damage with your attacks, and gain 1 more Block from your cards.",
-    "UPGRADE_DESCRIPTION": "For X+1 turns, draw 1 card, gain [E] , deal 1 more damage with your attacks, and gain 1 more Block from your cards."
-  },
-  "mysticmod:HeavyStrike": {
-    "NAME": "Heavy Strike",
-    "DESCRIPTION": "Deal !D! damage. NL [#5299DC]Powerful[]: Increase this card's damage by !M! permanently. NL Exhaust.",
-    "UPGRADE_DESCRIPTION": ""
-  },
-  "mysticmod:HunkerDown": {
-    "NAME": "Hunker Down",
-    "DESCRIPTION": " Gain !M! Dexterity until the end of the turn.",
-    "UPGRADE_DESCRIPTION": ""
-  },
-  "mysticmod:KeenEdge": {
-    "NAME": "Keen Edge",
-    "DESCRIPTION": "Apply !M! Vulnerable to ALL enemies.",
-    "UPGRADE_DESCRIPTION": ""
-  },
-  "mysticmod:KnowledgePool": {
-    "NAME": "Knowledge Pool",
-    "DESCRIPTION": "Choose one of 3 random [#5299DC]Spell[] cards and add it to your hand. it costs 0 this turn. NL Exhaust.",
-    "UPGRADE_DESCRIPTION": ""
-  },
-  "mysticmod:LightningBolt": {
-    "NAME": "Lightning Bolt",
-    "DESCRIPTION": "Deal !D! damage to ALL enemies. NL [#FF5252]Poised[]: Deal !M! damage instead.",
-    "UPGRADE_DESCRIPTION": ""
-  },
-  "mysticmod:Lunge": {
-    "NAME": "Lunge",
-    "DESCRIPTION": "Gain [E] [E]. NL Draw 2 cards. NL Lose 4 Dexterity this turn. NL Exhaust. mysticmod:Feat.",
-    "UPGRADE_DESCRIPTION": "Gain [E] [E] [E]. NL Draw 2 cards. NL Lose 4 Dexterity this turn. NL Exhaust. mysticmod:Feat.",
-    "EXTENDED_DESCRIPTION": [
-      "I have already played an [#FF5252]Arte[] this turn!"
-    ]
-  },
-  "mysticmod:MagicMissile": {
-    "NAME": "Magic Missile",
-    "DESCRIPTION": "Deal !D! damage for each time the deck was shuffled this combat.",
-    "UPGRADE_DESCRIPTION": "Deal !D! damage for each time the deck was shuffled this combat, and for each stack of [#FF5252]Poise[].",
-    "EXTENDED_DESCRIPTION": [" NL ( !M! times.)", " NL ( !M! time.)"]
-  },
-  "mysticmod:MagicWeapon": {
-    "NAME": "Magic Weapon",
-    "DESCRIPTION": "Gain !M! Strength. Add a *Blade *Burst to your discard pile. NL Exhaust.",
-    "UPGRADE_DESCRIPTION": "Gain !M! Strength. Add a *Blade *Burst+ to your discard pile. NL Exhaust."
-  },
-  "mysticmod:MightyMagic": {
-    "NAME": "Bladework",
-    "DESCRIPTION": "Gain !M! mysticmod:Technique.",
-    "UPGRADE_DESCRIPTION": ""
-  },
-  "mysticmod:MirrorEntity": {
-    "NAME": "Mirror Entity",
-    "DESCRIPTION": "[#5299DC]Spells[] and [#FF5252]Artes[] also advance next turn's [#5299DC]Power[] and [#FF5252]Poise[] counters.",
-    "UPGRADE_DESCRIPTION": ""
-  },
-  "mysticmod:MirrorStrike": {
-    "NAME": "Mirror Strike",
-    "DESCRIPTION": "Deal !D! damage. NL [#5299DC]Powerful[]: For every two stacks of [#5299DC]Power[], deal another !D! damage.",
-    "UPGRADE_DESCRIPTION": ""
-  },
-  "mysticmod:Momentum": {
-    "NAME": "Momentum",
-    "DESCRIPTION": "[#5299DC]Spells[] and [#FF5252]Artes[] deal more damage and gain more Block for each stack of [#FF5252]Poise[] or [#5299DC]Power[] respectively.",
-    "UPGRADE_DESCRIPTION": ""
-  },
-  "mysticmod:MysticalShield": {
-    "NAME": "Mystical Shield",
-    "DESCRIPTION": "Block is reduced to 8 instead of 0 at the start of your turn.",
-    "UPGRADE_DESCRIPTION": "Block is set to 8 instead of 0 at the start of your turn."
-  },
-  "mysticmod:Natural20": {
-    "NAME": "Natural 20",
-    "DESCRIPTION": "Your next Attack this turn does double damage. NL Exhaust.",
-    "UPGRADE_DESCRIPTION": "Your next Attack this turn does double damage."
-  },
-  "mysticmod:ObscuringMist": {
-    "NAME": "Obscuring Mist",
-    "DESCRIPTION": "Gain !B! Block. NL [#FF5252]Poised[]: Gain !M! Artifact. NL Exhaust.",
-    "UPGRADE_DESCRIPTION": ""
-  },
-  "mysticmod:PowerAttack": {
-    "NAME": "Power Attack",
-    "DESCRIPTION": "Gain !mysticmod:M2! Strength and lose !M! Dexterity this turn. NL mysticmod:Feat.",
-    "UPGRADE_DESCRIPTION": "",
-    "EXTENDED_DESCRIPTION": [
-      "I have already played an [#FF5252]Arte[] this turn!"
-    ]
-  },
-  "mysticmod:PowerSlash": {
-    "NAME": "Power Slash",
-    "DESCRIPTION": "Deal !D! damage. NL Gain an additional stack of [#FF5252]Poise[].",
-    "UPGRADE_DESCRIPTION": ""
-  },
-  "mysticmod:PreparedCaster": {
-    "NAME": "Prepared Caster",
-    "DESCRIPTION": "Innate. NL Choose one [#5299DC]Spell[] from your draw pile and add it to your hand. NL Exhaust.",
-    "UPGRADE_DESCRIPTION": ""
-  },
-  "mysticmod:Prestidigitation": {
-    "NAME": "Prestidigitation",
-    "DESCRIPTION": "mysticmod:Cantrip. NL Gain !B! Block. Draw a card.",
-    "UPGRADE_DESCRIPTION": ""
-  },
-  "mysticmod:Probe": {
-    "NAME": "Probe",
-    "DESCRIPTION": "Deal !D! damage.",
-    "UPGRADE_DESCRIPTION": "Deal !D! damage. NL Begin next turn with one [#FF5252]Poise[]."
-  },
-  "mysticmod:PunishingArmor": {
-    "NAME": "Punishing Armor",
-    "DESCRIPTION": "Gain !B! Block. NL [#FF5252]Poised[]: Gain !M! Thorns. NL Exhaust.",
-    "UPGRADE_DESCRIPTION": ""
-  },
-  "mysticmod:PureInstinct": {
-    "NAME": "Pure Instinct",
-    "DESCRIPTION": "Gain !B! Block, then gain !B! Block for each [#FF5252]Arte[] in your hand. NL For !M! turns, all Strikes count as [#FF5252]Artes[].",
-    "UPGRADE_DESCRIPTION": "",
-    "EXTENDED_DESCRIPTION": [
-      " NL (You have ",
-      " [#FF5252]Arte[]).",
-      " [#FF5252]Artes[])."
-    ]
-  },
-  "mysticmod:RapidCaster": {
-    "NAME": "Rapid Caster",
-    "DESCRIPTION": "The first mysticmod:Cantrip you play each turn is played twice.",
-    "UPGRADE_DESCRIPTION": "Innate. NL The first mysticmod:Cantrip you play each turn is played twice."
-  },
-  "mysticmod:RayOfFrost": {
-    "NAME": "Ray Of Frost",
-    "DESCRIPTION": "mysticmod:Cantrip. NL Deal !D! damage. Gain !B! Block. Draw a card.",
-    "UPGRADE_DESCRIPTION": ""
-  },
-  "mysticmod:ReadMagic": {
-    "NAME": "Read Magic",
-    "DESCRIPTION": "mysticmod:Cantrip. NL Draw !M! cards, then discard 1 card. Exhaust.",
-    "UPGRADE_DESCRIPTION": "mysticmod:Cantrip. NL Draw !M! cards, then discard 2 cards. Exhaust."
-  },
-  "mysticmod:Riposte": {
-    "NAME": "Riposte",
-    "DESCRIPTION": "Deal !D! damage. NL If the enemy intends to attack, apply !M! Weak and !M! Vulnerable.",
-    "UPGRADE_DESCRIPTION": ""
-  },
-  "mysticmod:Snowball": {
-    "NAME": "Snowball",
-    "DESCRIPTION": "Deal !D! damage. NL Gain an additional stack of [#5299DC]Power[].",
-    "UPGRADE_DESCRIPTION": ""
-  },
-  "mysticmod:Spark": {
-    "NAME": "Spark",
-    "DESCRIPTION": "mysticmod:Cantrip. NL Draw a card, then gain [E] if the card is a [#5299DC]Spell[] or an [#FF5252]Arte[]. NL Exhaust.",
-    "UPGRADE_DESCRIPTION": "mysticmod:Cantrip. NL Draw a card, then gain [E] if the card is a [#5299DC]Spell[] or an [#FF5252]Arte[]."
-  },
-  "mysticmod:SpellCombat": {
-    "NAME": "Spell Combat",
-    "DESCRIPTION": "[#5299DC]Powerful[]: Deal !D! damage X times. NL [#FF5252]Poised[]: Gain !B! Block X times.",
-    "UPGRADE_DESCRIPTION": "",
-    "EXTENDED_DESCRIPTION": [
-      "I don't have any [#5299DC]Power[] or [#FF5252]Poise[]!"
-    ]
-  },
-  "mysticmod:SpellRecall": {
-    "NAME": "Spell Recall",
-    "DESCRIPTION": "Return a [#5299DC]Spell[] from your discard pile to your hand. NL Exhaust.",
-    "UPGRADE_DESCRIPTION": "Return a [#5299DC]Spell[] from your discard pile to your hand."
-  },
-  "mysticmod:Spellstrike": {
-    "NAME": "Spellstrike",
-    "DESCRIPTION": "Deal !D! damage. NL Search your draw pile for an Attack [#5299DC]Spell[] and play it. NL Exhaust.",
-    "UPGRADE_DESCRIPTION": "Deal !D! damage. NL Search your draw pile for an Attack [#5299DC]Spell[] and play it."
-  },
-  "mysticmod:SpontaneousCaster": {
-    "NAME": "Spontaneous Caster",
-    "DESCRIPTION": "Whenever you play a [#5299DC]Spell[], exhaust it and add a random [#5299DC]Spell[] to your discard pile. NL All [#5299DC]Spells'[] costs are reduced to [E] .",
-    "UPGRADE_DESCRIPTION": "Innate. NL Whenever you play a [#5299DC]Spell[], exhaust it and add a random [#5299DC]Spell[] to your discard pile. NL All [#5299DC]Spells'[] costs are reduced to [E] ."
-  },
-  "mysticmod:Shield": {
-    "NAME": "Shield",
-    "DESCRIPTION": "Gain !B! Block. NL Gain !B! Block next turn.",
-    "UPGRADE_DESCRIPTION": ""
-  },
-  "mysticmod:ShockingGrasp": {
-    "NAME": "Shocking Grasp",
-    "DESCRIPTION": "Deal !D! damage. NL [#FF5252]Poised[]: Deal !M! damage instead.",
-    "UPGRADE_DESCRIPTION": ""
-  },
-  "mysticmod:Sideswipe": {
-    "NAME": "Sideswipe",
-    "DESCRIPTION": "Deal !D! damage. NL [#5299DC]Powerful[]: Apply !M! Weak.",
-    "UPGRADE_DESCRIPTION": ""
-  },
-  "mysticmod:Stoneskin": {
-    "NAME": "Stoneskin",
-    "DESCRIPTION": "Gain !B! Block. NL Gain mysticmod:Stoneskin for !M! turns.",
-    "UPGRADE_DESCRIPTION": ""
-  },
-  "mysticmod:Strike_Mystic": {
-    "NAME": "Strike",
-    "DESCRIPTION": "Deal !D! damage.",
-    "UPGRADE_DESCRIPTION": ""
-  },
-  "mysticmod:StyleChange": {
-    "NAME": "Style Change",
-    "DESCRIPTION": "Add a random [#FF5252]Arte[] to your hand. It costs 0 this turn. NL Exhaust.",
-    "UPGRADE_DESCRIPTION": ""
-  },
-  "mysticmod:SuddenClarity": {
-    "NAME": "Sudden Clarity",
-    "DESCRIPTION": "Gain !B! Block. NL Draw a card.",
-    "UPGRADE_DESCRIPTION": "Gain !B! Block. NL Draw !M! cards."
-  },
-  "mysticmod:SummonFamiliar": {
-    "NAME": "Summon Familiar",
-    "DESCRIPTION": "Summon your faithful Fox Familiar. NL Exhaust.",
-    "UPGRADE_DESCRIPTION": "",
-    "EXTENDED_DESCRIPTION": [
-      "Can attack or help set up your combos. Playing more copies of this card will upgrade your familiar, up to 3 times."
-    ]
-  },
-  "mysticmod:TomeOfSpells": {
-    "NAME": "Tome Of Spells",
-    "DESCRIPTION": "Add !M! random mysticmod:Cantrips to your draw pile. NL Exhaust.",
-    "UPGRADE_DESCRIPTION": ""
-  },
-  "mysticmod:VorpalThrust": {
-    "NAME": "Vorpal Thrust",
-    "DESCRIPTION": "Deal !D! damage. NL [#5299DC]Powerful[]: Increase base damage by !M! for each stack of [#5299DC]Power[].",
-    "UPGRADE_DESCRIPTION": ""
-  }
+    "mysticmod:AbstractMysticCard": {
+        "NAME": "",
+        "DESCRIPTION": "",
+        "UPGRADE_DESCRIPTION": "",
+        "EXTENDED_DESCRIPTION": [
+            "Spell",
+            "Arte",
+            "This Skill is also considered a [#5299DC]Spell[], and will grant one stack of [#5299DC]Power[].",
+            "This Skill is also considered an [#FF5252]Arte[], and will grant one stack of [#FF5252]Poise[].",
+            "This Attack is also considered a [#5299DC]Spell[], and will grant one stack of [#5299DC]Power[].",
+            "This Attack is also considered an [#FF5252]Arte[], and will grant one stack of [#FF5252]Poise[].",
+            "Powerful",
+            "Poised",
+            "Has an additional effect if you have a stack of [#5299DC]Power[].",
+            "Has an additional effect if you have a stack of [#FF5252]Poise[]."
+        ]
+    },
+    "mysticmod:AcidSplash": {
+        "NAME": "Acid Splash",
+        "DESCRIPTION": "mysticmod:Кантрип. NL Наносит !D! урона. Draw a card.",
+        "UPGRADE_DESCRIPTION": ""
+    },
+    "mysticmod:Alacrity": {
+        "NAME": "Alacrity",
+        "DESCRIPTION": "Дает !B! Защиты. NL [#FF5252]Poised[]: Дает [E] next turn.",
+        "UPGRADE_DESCRIPTION": ""
+    },
+    "mysticmod:AllIn": {
+        "NAME": "ВСЕМ In",
+        "DESCRIPTION": "Наносит !D! урона. NL Become Слабости for !M! turns. Слабости amount is reduced for each stack of [#5299DC]Power[].",
+        "UPGRADE_DESCRIPTION": ""
+    },
+    "mysticmod:ArcaneAccuracy": {
+        "NAME": "Metamagic",
+        "DESCRIPTION": "Дает !M! mysticmod:Spellмощь.",
+        "UPGRADE_DESCRIPTION": ""
+    },
+    "mysticmod:ArcaneDodge": {
+        "NAME": "Arcane Dodge",
+        "DESCRIPTION": "Дает !B! Защиты. NL [#5299DC]Powerful[]: Дает an additional !M! Защиты.",
+        "UPGRADE_DESCRIPTION": ""
+    },
+    "mysticmod:BladeBurst": {
+        "NAME": "Клинок Burst",
+        "DESCRIPTION": "теряете !M! Силы. Наносит !D! урона. Добавляет a *Magic *Weapon to your discard pile. NL Сжигается.",
+        "UPGRADE_DESCRIPTION": "теряете !M! Силы. Наносит !D! урона. Добавляет a *Magic *Weapon+ to your discard pile. NL Сжигается."
+    },
+    "mysticmod:BladeMaster": {
+        "NAME": "Клинок Master",
+        "DESCRIPTION": "Return up to !M! [#FF5252]Artes[] from your discard pile to your hand.",
+        "UPGRADE_DESCRIPTION": ""
+    },
+    "mysticmod:BladedDash": {
+        "NAME": "Bladed Dash",
+        "DESCRIPTION": "Наносит !D! урона. NL [#5299DC]Powerful[]: Дает !B! Защиты.",
+        "UPGRADE_DESCRIPTION": ""
+    },
+    "mysticmod:BulkUp": {
+        "NAME": "Bulk Up",
+        "DESCRIPTION": "Дает !B! Защиты, then Сжигается a random card in your hand. NL [#5299DC]Powerful[]: Choose if and what to Сжигается.",
+        "UPGRADE_DESCRIPTION": ""
+    },
+    "mysticmod:ChargedParry": {
+        "NAME": "Charged Parry",
+        "DESCRIPTION": "Дает !B! Защиты. NL [#5299DC]Powerful[]: Дает !M! Силы this turn.",
+        "UPGRADE_DESCRIPTION": ""
+    },
+    "mysticmod:ClosingBarrage": {
+        "NAME": "Closing Barrage",
+        "DESCRIPTION": "Наносит Y урона X times, where Y is equal to your total [#5299DC]Power[] and [#FF5252]Poise[] multiplied by !M!.",
+        "UPGRADE_DESCRIPTION": "Наносит Y урона X+1 times, where Y is equal to your total [#5299DC]Power[] and [#FF5252]Poise[] multiplied by !M!.",
+        "EXTENDED_DESCRIPTION": [
+            " NL ( !D! damage)"
+        ]
+    },
+    "mysticmod:ComboCaster": {
+        "NAME": "Combo Caster",
+        "DESCRIPTION": "At the start of each turn, Добавляет a random mysticmod:Кантрип to your hand and draw 1 less card.",
+        "UPGRADE_DESCRIPTION": ""
+    },
+    "mysticmod:ComponentsPouch": {
+        "NAME": "Components Pouch",
+        "DESCRIPTION": "Наносит !D! урона, then Наносит !D! урона for each [#5299DC]Spell[] in your hand. NL For !M! turns, ВСЕМ Defends count as [#5299DC]Spells[].",
+        "UPGRADE_DESCRIPTION": "",
+        "EXTENDED_DESCRIPTION": [
+            " NL (You have ",
+            " [#5299DC]Spell[]).",
+            " [#5299DC]Spells[])."
+        ]
+    },
+    "mysticmod:CorrosiveTouch": {
+        "NAME": "Corrosive Touch",
+        "DESCRIPTION": "Наносит !D! урона.",
+        "UPGRADE_DESCRIPTION": "Наносит !D! урона. NL Begin next turn with one [#5299DC]Power[]."
+    },
+    "mysticmod:CureLightWounds": {
+        "NAME": "Cure Light Wounds",
+        "DESCRIPTION": "Дает !M! Regen. NL Сжигается.",
+        "UPGRADE_DESCRIPTION": "",
+        "EXTENDED_DESCRIPTION": [
+            "Cure Moderate Wounds"
+        ]
+    },
+    "mysticmod:Daze": {
+        "NAME": "Diversion",
+        "DESCRIPTION": "Накладывает !M! Vulnerable. NL [#FF5252]Poised[]: Накладывает !M! Слабости.",
+        "UPGRADE_DESCRIPTION": ""
+    },
+    "mysticmod:Dedication": {
+        "NAME": "Dedication",
+        "DESCRIPTION": "Дает !M! Силы and Ловкости. NL Can be upgraded any number of times.",
+        "UPGRADE_DESCRIPTION": ""
+    },
+    "mysticmod:Defend_Mystic": {
+        "NAME": "Defend",
+        "DESCRIPTION": "Дает !B! Защиты.",
+        "UPGRADE_DESCRIPTION": ""
+    },
+    "mysticmod:Discipline": {
+        "NAME": "Discipline",
+        "DESCRIPTION": "Begin each turn with !M! [#5299DC]Power[] and [#FF5252]Poise[].",
+        "UPGRADE_DESCRIPTION": ""
+    },
+    "mysticmod:Disengage": {
+        "NAME": "Disengage",
+        "DESCRIPTION": "Дает !B! Защиты. NL Begin next turn with one [#FF5252]Poise[].",
+        "UPGRADE_DESCRIPTION": ""
+    },
+    "mysticmod:Disintegrate": {
+        "NAME": "Disintegrate",
+        "DESCRIPTION": "Наносит !D! урона. NL Ignores Защиты.",
+        "UPGRADE_DESCRIPTION": ""
+    },
+    "mysticmod:DiviningBlow": {
+        "NAME": "Divining Blow",
+        "DESCRIPTION": "Наносит !D! урона. NL [#5299DC]Powerful[]: Draw 1 card for each stack of [#5299DC]Power[].",
+        "UPGRADE_DESCRIPTION": "",
+        "EXTENDED_DESCRIPTION": [
+            " NL (",
+            " Card.)",
+            " Cards.)"
+        ]
+    },
+    "mysticmod:Doublecast": {
+        "NAME": "Doublecast",
+        "DESCRIPTION": "This turn, your next [#5299DC]Spell[] is played twice.",
+        "UPGRADE_DESCRIPTION": "This turn, your next two [#5299DC]Spells[] are played twice."
+    },
+    "mysticmod:EarthenWall": {
+        "NAME": "Earthen WВСЕМ",
+        "DESCRIPTION": "Дает !B! Защиты. Дает !M! Ловкости this turn.",
+        "UPGRADE_DESCRIPTION": ""
+    },
+    "mysticmod:EbbAndFlow": {
+        "NAME": "Ebb and Flow",
+        "DESCRIPTION": "Each turn, draw 1 card, then discard 1 card unless you have a [#5299DC]Spell[] and 1 card unless you have an [#FF5252]Arte[].",
+        "UPGRADE_DESCRIPTION": "Innate. NL Each turn, draw 1 card, then discard 1 card unless you have a [#5299DC]Spell[] and 1 card unless you have an [#FF5252]Arte[]."
+    },
+    "mysticmod:EnchantedMoulinet": {
+        "NAME": "Enchanted Moulinet",
+        "DESCRIPTION": "Наносит !D! урона to ВСЕМ врагам. For each enemy that dies, Дает [E] .",
+        "UPGRADE_DESCRIPTION": ""
+    },
+    "mysticmod:EnergizedRift": {
+        "NAME": "Energized Rift",
+        "DESCRIPTION": "[#FF5252]Poised[]: Добавляет a random mysticmod:Кантрип to your draw pile for each stack of [#FF5252]Poise[]. NL Сжигается.",
+        "UPGRADE_DESCRIPTION": "[#FF5252]Poised[]: Добавляет a random Upgraded mysticmod:Кантрип to your draw pile for each stack of [#FF5252]Poise[]. NL Сжигается.",
+        "EXTENDED_DESCRIPTION": [
+            " NL (",
+            " mysticmod:Cantrip. )",
+            " mysticmod:Cantrips. )",
+            "I don't have any [#FF5252]Poise[]!"
+        ]
+    },
+    "mysticmod:Feint": {
+        "NAME": "Feint",
+        "DESCRIPTION": "Наносит !D! урона. Добавляет a random mysticmod:Кантрип to your draw pile.",
+        "UPGRADE_DESCRIPTION": "Наносит !D! урона. Добавляет a random Upgraded mysticmod:Кантрип to your draw pile."
+    },
+    "mysticmod:Fireball": {
+        "NAME": "FirebВСЕМ",
+        "DESCRIPTION": "Наносит !D! урона. NL [#FF5252]Poised[]: Наносит it to ВСЕМ врагам.",
+        "UPGRADE_DESCRIPTION": ""
+    },
+    "mysticmod:FiveFootStep": {
+        "NAME": "5 Foot Step",
+        "DESCRIPTION": "Наносит !D! урона. NL [#5299DC]Powerful[]: Shuffle this card into your draw pile.",
+        "UPGRADE_DESCRIPTION": ""
+    },
+    "mysticmod:FloatingDisk": {
+        "NAME": "Floating Disk",
+        "DESCRIPTION": "Дает !B! Защиты. NL [#FF5252]Poised[]: Дает !M! Ловкости. Сжигается.",
+        "UPGRADE_DESCRIPTION": ""
+    },
+    "mysticmod:Flourish": {
+        "NAME": "Flourish",
+        "DESCRIPTION": "Costs [E] less for each stack of [#5299DC]Power[] and [#FF5252]Poise[]. Наносит !D! урона twice, then double the [#5299DC]Power[] and [#FF5252]Poise[] amounts.",
+        "UPGRADE_DESCRIPTION": ""
+    },
+    "mysticmod:Flurry": {
+        "NAME": "Flurry",
+        "DESCRIPTION": "Наносит !D! урона !M! times. NL [#5299DC]Powerful[]: !mysticmod:M2! times instead",
+        "UPGRADE_DESCRIPTION": ""
+    },
+    "mysticmod:Fly": {
+        "NAME": "Fly",
+        "DESCRIPTION": "Дает !B! Защиты. NL [#FF5252]Poised[]: Защиты is not removed at the start of your next turn.",
+        "UPGRADE_DESCRIPTION": ""
+    },
+    "mysticmod:GeminiForm": {
+        "NAME": "Gemini Form",
+        "DESCRIPTION": "For the first [#5299DC]Spell[] and [#FF5252]Arte[] you play each turn, play a random card of the other type from your draw pile. NL Ethereal.",
+        "UPGRADE_DESCRIPTION": "For the first [#5299DC]Spell[] and [#FF5252]Arte[] you play each turn, play a random card of the other type from your draw pile."
+    },
+    "mysticmod:Grapple": {
+        "NAME": "Grapple",
+        "DESCRIPTION": "Stun the target. Can't use the same turn as an Attack. NL Ethereal. Сжигается.",
+        "UPGRADE_DESCRIPTION": "Stun the target. Can't use the same turn as an Attack. NL Сжигается."
+    },
+    "mysticmod:Grease": {
+        "NAME": "Grease",
+        "DESCRIPTION": "Target enemy теряете !M! Силы this turn. NL [#FF5252]Poised[]: ВСЕМ врагам instead.",
+        "UPGRADE_DESCRIPTION": ""
+    },
+    "mysticmod:GreaterInvisibility": {
+        "NAME": "Greater Invisibility",
+        "DESCRIPTION": "Дает 1 Intangible. NL Сжигается, Ethereal. NL [#FF5252]Poised[]: Does not Сжигается if you played !M! [#FF5252]Artes[] this turn.",
+        "UPGRADE_DESCRIPTION": "Дает 1 Intangible. NL Сжигается, Ethereal. NL [#FF5252]Poised[]: Does not Сжигается if you played !M! [#FF5252]Arte[] this turn."
+    },
+    "mysticmod:IllusionOfCalm": {
+        "NAME": "Illusion Of Calm",
+        "DESCRIPTION": "Дает !B! Защиты. NL Become Frail for !M! turns. Frail amount is reduced for each stack of [#FF5252]Poise[].",
+        "UPGRADE_DESCRIPTION": ""
+    },
+    "mysticmod:Haste": {
+        "NAME": "Haste",
+        "DESCRIPTION": "For X turns, draw 1 card, Дает [E] , Наносит 1 more урона with your attacks, and Дает 1 more Защиты from your cards.",
+        "UPGRADE_DESCRIPTION": "For X+1 turns, draw 1 card, Дает [E] , Наносит 1 more урона with your attacks, and Дает 1 more Защиты from your cards."
+    },
+    "mysticmod:HeavyStrike": {
+        "NAME": "Heavy Strike",
+        "DESCRIPTION": "Наносит !D! урона. NL [#5299DC]Powerful[]: Increase this card's урона by !M! permanently. NL Сжигается.",
+        "UPGRADE_DESCRIPTION": ""
+    },
+    "mysticmod:HunkerDown": {
+        "NAME": "Hunker Down",
+        "DESCRIPTION": " Дает !M! Ловкости until the end of the turn.",
+        "UPGRADE_DESCRIPTION": ""
+    },
+    "mysticmod:KeenEdge": {
+        "NAME": "Keen Edge",
+        "DESCRIPTION": "Накладывает !M! Vulnerable to ВСЕМ врагам.",
+        "UPGRADE_DESCRIPTION": ""
+    },
+    "mysticmod:KnowledgePool": {
+        "NAME": "Knowledge Pool",
+        "DESCRIPTION": "Choose one of 3 random [#5299DC]Spell[] cards and Добавляет it to your hand. it costs 0 this turn. NL Сжигается.",
+        "UPGRADE_DESCRIPTION": ""
+    },
+    "mysticmod:LightningBolt": {
+        "NAME": "Lightning Bolt",
+        "DESCRIPTION": "Наносит !D! урона to ВСЕМ врагам. NL [#FF5252]Poised[]: Наносит !M! урона instead.",
+        "UPGRADE_DESCRIPTION": ""
+    },
+    "mysticmod:Lunge": {
+        "NAME": "Lunge",
+        "DESCRIPTION": "Дает [E] [E]. NL Draw 2 cards. NL теряете 4 Ловкости this turn. NL Сжигается. mysticmod:Мастерство.",
+        "UPGRADE_DESCRIPTION": "Дает [E] [E] [E]. NL Draw 2 cards. NL теряете 4 Ловкости this turn. NL Сжигается. mysticmod:Мастерство.",
+        "EXTENDED_DESCRIPTION": [
+            "I have already played an [#FF5252]Arte[] this turn!"
+        ]
+    },
+    "mysticmod:MagicMissile": {
+        "NAME": "Magic Missile",
+        "DESCRIPTION": "Наносит !D! урона for each time the deck was shuffled this combat.",
+        "UPGRADE_DESCRIPTION": "Наносит !D! урона for each time the deck was shuffled this combat, and for each stack of [#FF5252]Poise[].",
+        "EXTENDED_DESCRIPTION": [
+            " NL ( !M! times.)",
+            " NL ( !M! time.)"
+        ]
+    },
+    "mysticmod:MagicWeapon": {
+        "NAME": "Magic Weapon",
+        "DESCRIPTION": "Дает !M! Силы. Добавляет a *Клинок *Burst to your discard pile. NL Сжигается.",
+        "UPGRADE_DESCRIPTION": "Дает !M! Силы. Добавляет a *Клинок *Burst+ to your discard pile. NL Сжигается."
+    },
+    "mysticmod:MightyMagic": {
+        "NAME": "Bladework",
+        "DESCRIPTION": "Дает !M! mysticmod:Technique.",
+        "UPGRADE_DESCRIPTION": ""
+    },
+    "mysticmod:MirrorEntity": {
+        "NAME": "Mirror Entity",
+        "DESCRIPTION": "[#5299DC]Spells[] and [#FF5252]Artes[] also advance next turn's [#5299DC]Power[] and [#FF5252]Poise[] counters.",
+        "UPGRADE_DESCRIPTION": ""
+    },
+    "mysticmod:MirrorStrike": {
+        "NAME": "Mirror Strike",
+        "DESCRIPTION": "Наносит !D! урона. NL [#5299DC]Powerful[]: For every two stacks of [#5299DC]Power[], Наносит another !D! урона.",
+        "UPGRADE_DESCRIPTION": ""
+    },
+    "mysticmod:Momentum": {
+        "NAME": "Momentum",
+        "DESCRIPTION": "[#5299DC]Spells[] and [#FF5252]Artes[] Наносит more урона and Дает more Защиты for each stack of [#FF5252]Poise[] or [#5299DC]Power[] respectively.",
+        "UPGRADE_DESCRIPTION": ""
+    },
+    "mysticmod:MysticalShield": {
+        "NAME": "Mystical Shield",
+        "DESCRIPTION": "Защиты is reduced to 8 instead of 0 at the start of your turn.",
+        "UPGRADE_DESCRIPTION": "Защиты is set to 8 instead of 0 at the start of your turn."
+    },
+    "mysticmod:Natural20": {
+        "NAME": "Natural 20",
+        "DESCRIPTION": "Your next Attack this turn does double урона. NL Сжигается.",
+        "UPGRADE_DESCRIPTION": "Your next Attack this turn does double урона."
+    },
+    "mysticmod:ObscuringMist": {
+        "NAME": "Obscuring Mist",
+        "DESCRIPTION": "Дает !B! Защиты. NL [#FF5252]Poised[]: Дает !M! Artifact. NL Сжигается.",
+        "UPGRADE_DESCRIPTION": ""
+    },
+    "mysticmod:PowerAttack": {
+        "NAME": "мощь Attack",
+        "DESCRIPTION": "Дает !mysticmod:M2! Силы and теряете !M! Ловкости this turn. NL mysticmod:Мастерство.",
+        "UPGRADE_DESCRIPTION": "",
+        "EXTENDED_DESCRIPTION": [
+            "I have already played an [#FF5252]Arte[] this turn!"
+        ]
+    },
+    "mysticmod:PowerSlash": {
+        "NAME": "мощь Slash",
+        "DESCRIPTION": "Наносит !D! урона. NL Дает an additional stack of [#FF5252]Poise[].",
+        "UPGRADE_DESCRIPTION": ""
+    },
+    "mysticmod:PreparedCaster": {
+        "NAME": "Prepared Caster",
+        "DESCRIPTION": "Innate. NL Choose one [#5299DC]Spell[] from your draw pile and Добавляет it to your hand. NL Сжигается.",
+        "UPGRADE_DESCRIPTION": ""
+    },
+    "mysticmod:Prestidigitation": {
+        "NAME": "Prestidigitation",
+        "DESCRIPTION": "mysticmod:Кантрип. NL Дает !B! Защиты. Draw a card.",
+        "UPGRADE_DESCRIPTION": ""
+    },
+    "mysticmod:Probe": {
+        "NAME": "Probe",
+        "DESCRIPTION": "Наносит !D! урона.",
+        "UPGRADE_DESCRIPTION": "Наносит !D! урона. NL Begin next turn with one [#FF5252]Poise[]."
+    },
+    "mysticmod:PunishingArmor": {
+        "NAME": "Punishing Armor",
+        "DESCRIPTION": "Дает !B! Защиты. NL [#FF5252]Poised[]: Дает !M! Thorns. NL Сжигается.",
+        "UPGRADE_DESCRIPTION": ""
+    },
+    "mysticmod:PureInstinct": {
+        "NAME": "Pure Instinct",
+        "DESCRIPTION": "Дает !B! Защиты, then Дает !B! Защиты for each [#FF5252]Arte[] in your hand. NL For !M! turns, ВСЕМ Strikes count as [#FF5252]Artes[].",
+        "UPGRADE_DESCRIPTION": "",
+        "EXTENDED_DESCRIPTION": [
+            " NL (You have ",
+            " [#FF5252]Arte[]).",
+            " [#FF5252]Artes[])."
+        ]
+    },
+    "mysticmod:RapidCaster": {
+        "NAME": "Rapid Caster",
+        "DESCRIPTION": "The first mysticmod:Кантрип you play each turn is played twice.",
+        "UPGRADE_DESCRIPTION": "Innate. NL The first mysticmod:Кантрип you play each turn is played twice."
+    },
+    "mysticmod:RayOfFrost": {
+        "NAME": "Ray Of Frost",
+        "DESCRIPTION": "mysticmod:Кантрип. NL Наносит !D! урона. Дает !B! Защиты. Draw a card.",
+        "UPGRADE_DESCRIPTION": ""
+    },
+    "mysticmod:ReadMagic": {
+        "NAME": "Read Magic",
+        "DESCRIPTION": "mysticmod:Кантрип. NL Draw !M! cards, then discard 1 card. Сжигается.",
+        "UPGRADE_DESCRIPTION": "mysticmod:Кантрип. NL Draw !M! cards, then discard 2 cards. Сжигается."
+    },
+    "mysticmod:Riposte": {
+        "NAME": "Riposte",
+        "DESCRIPTION": "Наносит !D! урона. NL If the enemy intends to attack, Накладывает !M! Слабости and !M! Vulnerable.",
+        "UPGRADE_DESCRIPTION": ""
+    },
+    "mysticmod:Snowball": {
+        "NAME": "SnowbВСЕМ",
+        "DESCRIPTION": "Наносит !D! урона. NL Дает an additional stack of [#5299DC]Power[].",
+        "UPGRADE_DESCRIPTION": ""
+    },
+    "mysticmod:Spark": {
+        "NAME": "Spark",
+        "DESCRIPTION": "mysticmod:Кантрип. NL Draw a card, then Дает [E] if the card is a [#5299DC]Spell[] or an [#FF5252]Arte[]. NL Сжигается.",
+        "UPGRADE_DESCRIPTION": "mysticmod:Кантрип. NL Draw a card, then Дает [E] if the card is a [#5299DC]Spell[] or an [#FF5252]Arte[]."
+    },
+    "mysticmod:SpellCombat": {
+        "NAME": "Чары Combat",
+        "DESCRIPTION": "[#5299DC]Powerful[]: Наносит !D! урона X times. NL [#FF5252]Poised[]: Дает !B! Защиты X times.",
+        "UPGRADE_DESCRIPTION": "",
+        "EXTENDED_DESCRIPTION": [
+            "I don't have any [#5299DC]Power[] or [#FF5252]Poise[]!"
+        ]
+    },
+    "mysticmod:SpellRecall": {
+        "NAME": "Чары RecВСЕМ",
+        "DESCRIPTION": "Return a [#5299DC]Spell[] from your discard pile to your hand. NL Сжигается.",
+        "UPGRADE_DESCRIPTION": "Return a [#5299DC]Spell[] from your discard pile to your hand."
+    },
+    "mysticmod:Spellstrike": {
+        "NAME": "Spellstrike",
+        "DESCRIPTION": "Наносит !D! урона. NL Search your draw pile for an Attack [#5299DC]Spell[] and play it. NL Сжигается.",
+        "UPGRADE_DESCRIPTION": "Наносит !D! урона. NL Search your draw pile for an Attack [#5299DC]Spell[] and play it."
+    },
+    "mysticmod:SpontaneousCaster": {
+        "NAME": "Spontaneous Caster",
+        "DESCRIPTION": "Whenever you play a [#5299DC]Spell[], Сжигается it and Добавляет a random [#5299DC]Spell[] to your discard pile. NL ВСЕМ [#5299DC]Spells'[] costs are reduced to [E] .",
+        "UPGRADE_DESCRIPTION": "Innate. NL Whenever you play a [#5299DC]Spell[], Сжигается it and Добавляет a random [#5299DC]Spell[] to your discard pile. NL ВСЕМ [#5299DC]Spells'[] costs are reduced to [E] ."
+    },
+    "mysticmod:Shield": {
+        "NAME": "Shield",
+        "DESCRIPTION": "Дает !B! Защиты. NL Дает !B! Защиты next turn.",
+        "UPGRADE_DESCRIPTION": ""
+    },
+    "mysticmod:ShockingGrasp": {
+        "NAME": "Shocking Grasp",
+        "DESCRIPTION": "Наносит !D! урона. NL [#FF5252]Poised[]: Наносит !M! урона instead.",
+        "UPGRADE_DESCRIPTION": ""
+    },
+    "mysticmod:Sideswipe": {
+        "NAME": "Sideswipe",
+        "DESCRIPTION": "Наносит !D! урона. NL [#5299DC]Powerful[]: Накладывает !M! Слабости.",
+        "UPGRADE_DESCRIPTION": ""
+    },
+    "mysticmod:Stoneskin": {
+        "NAME": "Камнекожи",
+        "DESCRIPTION": "Дает !B! Защиты. NL Дает mysticmod:Камнекожи for !M! turns.",
+        "UPGRADE_DESCRIPTION": ""
+    },
+    "mysticmod:Strike_Mystic": {
+        "NAME": "Strike",
+        "DESCRIPTION": "Наносит !D! урона.",
+        "UPGRADE_DESCRIPTION": ""
+    },
+    "mysticmod:StyleChange": {
+        "NAME": "Style Change",
+        "DESCRIPTION": "Добавляет a random [#FF5252]Arte[] to your hand. It costs 0 this turn. NL Сжигается.",
+        "UPGRADE_DESCRIPTION": ""
+    },
+    "mysticmod:SuddenClarity": {
+        "NAME": "Sudden Clarity",
+        "DESCRIPTION": "Дает !B! Защиты. NL Draw a card.",
+        "UPGRADE_DESCRIPTION": "Дает !B! Защиты. NL Draw !M! cards."
+    },
+    "mysticmod:SummonFamiliar": {
+        "NAME": "Summon фамильяр",
+        "DESCRIPTION": "Summon your faithful Fox фамильяр. NL Сжигается.",
+        "UPGRADE_DESCRIPTION": "",
+        "EXTENDED_DESCRIPTION": [
+            "Can attack or help set up your combos. Playing more copies of this card will upgrade your familiar, up to 3 times."
+        ]
+    },
+    "mysticmod:TomeOfSpells": {
+        "NAME": "Tome Of Чар",
+        "DESCRIPTION": "Добавляет !M! random mysticmod:Кантрип to your draw pile. NL Сжигается.",
+        "UPGRADE_DESCRIPTION": ""
+    },
+    "mysticmod:VorpalThrust": {
+        "NAME": "Vorpal Thrust",
+        "DESCRIPTION": "Наносит !D! урона. NL [#5299DC]Powerful[]: Increase base урона by !M! for each stack of [#5299DC]Power[].",
+        "UPGRADE_DESCRIPTION": ""
+    }
 }
