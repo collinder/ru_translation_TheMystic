@@ -1,0 +1,199 @@
+{
+    "mysticmod:ArcaneAccuracyPower": {
+        "NAME": "Spellмощь",
+        "DESCRIPTIONS": [
+            "Increase the #yBlock gained from and damage dealt by [#5299DC]Spells[] by ",
+            "."
+        ]
+    },
+    "mysticmod:ArtesPlayedPower": {
+        "NAME": "[#FF5252]Poise[]",
+        "DESCRIPTIONS": [
+            "You have played ",
+            " [#FF5252]Arte[] this turn.",
+            " [#FF5252]Artes[] this turn."
+        ]
+    },
+    "mysticmod:ArtesPlayedNextTurnPower": {
+        "NAME": "[#FF5252]Poise[] Next Turn",
+        "DESCRIPTIONS": [
+            "Start next turn with ",
+            " [#FF5252]Poise[]."
+        ]
+    },
+    "mysticmod:ComboCasterPower": {
+        "NAME": "Combo Caster",
+        "DESCRIPTIONS": [
+            "At the start of each turn add ",
+            " random Cantrip to your hand",
+            " random Cantrips to your hand",
+            " and draw ",
+            " less card.",
+            " less cards."
+        ]
+    },
+    "mysticmod:ComponentsPouchPower": {
+        "NAME": "Components Pouch",
+        "DESCRIPTIONS": [
+            "For ",
+            " turn, all Defends count as [#5299DC]Spells[].",
+            " turns, all Defends count as [#5299DC]Spells[].",
+            ""
+        ]
+    },
+    "mysticmod:DisciplinePower": {
+        "NAME": "Discipline",
+        "DESCRIPTIONS": [
+            "Begin each turn with ",
+            " [#5299DC]Power[] and [#FF5252]Poise[]."
+        ]
+    },
+    "mysticmod:DoublecastPower": {
+        "NAME": "Doublecast",
+        "DESCRIPTIONS": [
+            "Your next [#5299DC]Spell[] card is played twice.",
+            "Your next ",
+            " [#5299DC]Spell[] cards are played twice."
+        ]
+    },
+    "mysticmod:EbbPower": {
+        "NAME": "Ebb",
+        "DESCRIPTIONS": [
+            "At the start of your turn, discard 1 card unless you have a [#5299DC]Spell[] and 1 card unless you have an [#FF5252]Arte[]."
+        ]
+    },
+    "mysticmod:EnergizedPurplePower": {
+        "NAME": "Energized",
+        "DESCRIPTIONS": [
+            "Gain #b",
+            " additional [E] next turn."
+        ]
+    },
+    "mysticmod:FlowPower": {
+        "NAME": "Flow",
+        "DESCRIPTIONS": [
+            "At the start of your turn, draw ",
+            "an additional card.",
+            " additional cards."
+        ]
+    },
+    "mysticmod:FoxEvolutionPower": {
+        "NAME": "Evolution",
+        "DESCRIPTIONS": [
+            "Your familiar now has an additional move",
+            " damages all enemies",
+            " has increased effectiveness",
+            ", and",
+            ".",
+            ","
+        ]
+    },
+    "mysticmod:GainDexterityPower": {
+        "NAME": "Overextended",
+        "DESCRIPTIONS": [
+            "Gain ",
+            " Dexterity at the end of your turn."
+        ]
+    },
+    "mysticmod:GeminiFormPower": {
+        "NAME": "Gemini Form",
+        "DESCRIPTIONS": [
+            "The first ",
+            "[#5299DC]Spell[] and [#FF5252]Arte[]",
+            "[#5299DC]Spells[] and [#FF5252]Artes[]",
+            " you play each turn, also play a random card of the other type from your draw pile."
+        ]
+    },
+    "mysticmod:HastePower": {
+        "NAME": "Haste",
+        "DESCRIPTIONS": [
+            "For ",
+            " turn, ",
+            " turns, ",
+            "draw 1 card, gain [E] , increase attack damage from cards by 1, and increase block gained from cards by 1."
+        ]
+    },
+    "mysticmod:MightyMagicPower": {
+        "NAME": "Technique",
+        "DESCRIPTIONS": [
+            "Increase the block gained from and damage dealt by [#FF5252]Artes[] by ",
+            "."
+        ]
+    },
+    "mysticmod:MirrorEntityPower": {
+        "NAME": "Mirror Entity",
+        "DESCRIPTIONS": [
+            "[#5299DC]Spells[] and [#FF5252]Artes[] also advance next turn's [#5299DC]Power[] and [#FF5252]Poise[] counters."
+        ]
+    },
+    "mysticmod:MomentumPower": {
+        "NAME": "Momentum",
+        "DESCRIPTIONS": [
+            "[#5299DC]Spells[] and [#FF5252]Artes[] deal extra damage and apply extra block equal to your [#FF5252]Poise[] and [#5299DC]Power[] respectively."
+        ]
+    },
+    "mysticmod:MysticalShieldPower": {
+        "NAME": "Mystical Shield",
+        "DESCRIPTIONS": [
+            "Block is reduced to 8 instead of 0 at the start of the turn."
+        ]
+    },
+    "mysticmod:MysticalShieldUpgradedPower": {
+        "NAME": "Mystical Shield",
+        "DESCRIPTIONS": [
+            "Block is set to 8 instead of 0 at the start of the turn."
+        ]
+    },
+    "mysticmod:Natural20Power": {
+        "NAME": "Natural 20",
+        "DESCRIPTIONS": [
+            "Critical hit!"
+        ]
+    },
+    "mysticmod:PureInstinctPower": {
+        "NAME": "Pure Instinct",
+        "DESCRIPTIONS": [
+            "For ",
+            " turn, all Strikes count as [#FF5252]Artes[].",
+            " turns, all Strikes count as [#FF5252]Artes[]."
+        ]
+    },
+    "mysticmod:RapidCasterPower": {
+        "NAME": "Rapid Caster",
+        "DESCRIPTIONS": [
+            "The first Cantrip you play each turn is played twice.",
+            "The first ",
+            " Cantrips you play each turn are played twice."
+        ]
+    },
+    "mysticmod:SpellsPlayedPower": {
+        "NAME": "[#5299DC]Power[]",
+        "DESCRIPTIONS": [
+            "You have played ",
+            " [#5299DC]Spell[] this turn.",
+            " [#5299DC]Spells[] this turn."
+        ]
+    },
+    "mysticmod:SpellsPlayedNextTurnPower": {
+        "NAME": "[#5299DC]Power[] Next Turn",
+        "DESCRIPTIONS": [
+            "Start next turn with ",
+            " [#5299DC]Power[]."
+        ]
+    },
+    "mysticmod:SpontaneousCasterPower": {
+        "NAME": "Spontaneous Caster",
+        "DESCRIPTIONS": [
+            "[#5299DC]Spells[] Exhaust when played, and then generate a random [#5299DC]Spell[] in your discard pile. The cost of all Spells are reduced to [E] ."
+        ]
+    },
+    "mysticmod:StoneskinPower": {
+        "NAME": "Камнекожи",
+        "DESCRIPTIONS": [
+            "Start your next ",
+            "turn with 2(",
+            " turns with 2(",
+            ") extra block. This block is affected by block-affecting powers."
+        ]
+    }
+}
