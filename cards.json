@@ -4,47 +4,47 @@
         "DESCRIPTION": "",
         "UPGRADE_DESCRIPTION": "",
         "EXTENDED_DESCRIPTION": [
-            "Spell",
-            "Arte",
-            "This Skill is also considered a [#5299DC]Spell[], and will grant one stack of [#5299DC]Power[].",
-            "This Skill is also considered an [#FF5252]Arte[], and will grant one stack of [#FF5252]Poise[].",
-            "This Attack is also considered a [#5299DC]Spell[], and will grant one stack of [#5299DC]Power[].",
-            "This Attack is also considered an [#FF5252]Arte[], and will grant one stack of [#FF5252]Poise[].",
-            "Powerful",
-            "Poised",
-            "Has an additional effect if you have a stack of [#5299DC]Power[].",
-            "Has an additional effect if you have a stack of [#FF5252]Poise[]."
+            "Чары",
+            "Умение",
+            "Этот Навык также является [#5299DC]Чарами[], и дает [#5299DC]Мощь[].",
+            "Этот Навык также является [#FF5252]Умением[], и дает [#FF5252]Баланс[].",
+            "Эта Атака также является [#5299DC]Чарами[], и дает [#5299DC]Мощь[].",
+            "Эта Атака также является [#FF5252]Умением[], и дает [#FF5252]Баланс[].",
+            "Мощный",
+            "Сбалансированный",
+            "Дает дополнительный эффект, если у вас есть [#5299DC]Мощь[].",
+            "Дает дополнительный эффект, если у вас есть [#FF5252]Баланс[]."
         ]
     },
     "mysticmod:AcidSplash": {
         "NAME": "Acid Splash",
-        "DESCRIPTION": "mysticmod:Кантрип. NL Наносит !D! урона. Draw a card.",
-        "UPGRADE_DESCRIPTION": ""
-    },
-    "mysticmod:Alacrity": {
-        "NAME": "Alacrity",
-        "DESCRIPTION": "Дает !B! Защиты. NL [#FF5252]Poised[]: Дает [E] next turn.",
+        "DESCRIPTION": "mysticmod:Кантрип. NL Наносит !D! урона. Вы берёте карту.",
+        "UPGRADE_DESCRIPTION": "" 
+    }, 
+    "mysticmod:Alacrity": { 
+        "NAME": "Alacrity", 
+        "DESCRIPTION": "Дает !B! Защиты. NL [#FF5252]Сбалансированный[]: Дает [E] в вашем след. ходу.",
         "UPGRADE_DESCRIPTION": ""
     },
     "mysticmod:AllIn": {
         "NAME": "ВСЕМ In",
-        "DESCRIPTION": "Наносит !D! урона. NL Become Слабости for !M! turns. Слабости amount is reduced for each stack of [#5299DC]Power[].",
+        "DESCRIPTION": "Наносит !D! урона. NL Вы получаете !M! Слабости. Количество Слабости снижается за каждую [#5299DC]Мощь[].",
         "UPGRADE_DESCRIPTION": ""
     },
     "mysticmod:ArcaneAccuracy": {
         "NAME": "Metamagic",
-        "DESCRIPTION": "Дает !M! mysticmod:Spellмощь.",
+        "DESCRIPTION": "Дает !M! mysticmod:Мудрости.",
         "UPGRADE_DESCRIPTION": ""
     },
     "mysticmod:ArcaneDodge": {
         "NAME": "Arcane Dodge",
-        "DESCRIPTION": "Дает !B! Защиты. NL [#5299DC]Powerful[]: Дает an additional !M! Защиты.",
+        "DESCRIPTION": "Дает !B! Защиты. NL [#5299DC]Сбалансированный[]: Дает еще !M! Защиты.",
         "UPGRADE_DESCRIPTION": ""
     },
     "mysticmod:BladeBurst": {
         "NAME": "Клинок Burst",
-        "DESCRIPTION": "теряете !M! Силы. Наносит !D! урона. Добавляет a *Magic *Weapon to your discard pile. NL Сжигается.",
-        "UPGRADE_DESCRIPTION": "теряете !M! Силы. Наносит !D! урона. Добавляет a *Magic *Weapon+ to your discard pile. NL Сжигается."
+        "DESCRIPTION": "Отнимает !M! Силы. Наносит !D! урона. Добавляет a *Magic *Weapon в стопку сброса. NL Сжигается.",
+        "UPGRADE_DESCRIPTION": "Отнимает !M! Силы. Наносит !D! урона. Добавляет a *Magic *Weapon+ в стопку сброса. NL Сжигается."
     },
     "mysticmod:BladeMaster": {
         "NAME": "Клинок Master",
