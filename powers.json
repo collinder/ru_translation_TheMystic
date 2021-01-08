@@ -1,6 +1,6 @@
 {
     "mysticmod:ArcaneAccuracyPower": {
-        "NAME": "Spellмощь",
+        "NAME": "Интеллект",
         "DESCRIPTIONS": [
             "Увеличивает #yЗащиту и урон [#5299DC]Чар[].",
             "."
@@ -22,7 +22,7 @@
         ]
     },
     "mysticmod:ComboCasterPower": {
-        "NAME": "Combo Caster",
+        "NAME": "Волшебный комбинатор",
         "DESCRIPTIONS": [
             "В начале каждого вашего хода добавляет ",
             " случ. Кантрип в руку",
@@ -178,7 +178,7 @@
         "NAME": "[#5299DC]Мощь[] в след. ходу",
         "DESCRIPTIONS": [
             "Даст ",
-            " [#5299DC]Баланса[] в след. ходу."
+            " [#5299DC]Мощи[] в след. ходу."
         ]
     },
     "mysticmod:SpontaneousCasterPower": {
