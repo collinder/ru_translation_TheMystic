@@ -1,21 +1,21 @@
 {
     "mysticmod:FoxFamiliar": {
-        "NAME": "Fox фамильяр",
+        "NAME": "Лис-фамильяр",
         "DIALOG": [
-            "Атака",
-            "Flank",
-            "Channel",
-            "Fortify"
+            "Атаковать",
+            "Окружать",
+            "Заряжать",
+            "Укрепить"
         ],
         "MOVES": [
-            "Deal ",
-            " damage.",
-            "Start next turn with ",
-            " [#FF5252]Poise[].",
-            " [#5299DC]Power[].",
-            "Gain ",
-            " Block.",
-            " damage to all enemies."
+            "Наносит ",
+            " урона.",
+            "Получить след. ход ",
+            " [#FF5252]Баланс[].",
+            " [#5299DC]Мощь[].",
+            "Дает ",
+            " Защиты.",
+            " урона ВСЕМ врагам."
         ]
     }
 }
