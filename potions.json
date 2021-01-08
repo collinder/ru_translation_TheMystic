@@ -1,6 +1,6 @@
 {
   "mysticmod:EssenceOfMagic": {
-    "NAME": "Essence Of Magic",
-    "DESCRIPTIONS": ["Add ", " random Cantrips to your hand.", " random Cantrip to your hand."]
+    "NAME": "Эссенция магии",
+    "DESCRIPTIONS": ["Добавляет в руку ", " случ. Кантрипа.", " случ. Кантрип."]
   }
 }

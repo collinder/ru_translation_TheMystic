@@ -2,7 +2,7 @@
     "mysticmod:FoxFamiliar": {
         "NAME": "Fox фамильяр",
         "DIALOG": [
-            "Attack",
+            "Атака",
             "Flank",
             "Channel",
             "Fortify"

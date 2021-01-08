@@ -1,66 +1,66 @@
 {
     "mysticmod:BentSpoon": {
-        "NAME": "Bent Spoon",
-        "FLAVOR": "What Lee doesn't want you to know is that there is no spoon.",
+        "NAME": "Согнутая ложка",
+        "FLAVOR": "Ли не хочет, чтобы вы знали, что ложки нет.",
         "DESCRIPTIONS": [
-            "#ymysticmod:Cantrips deal 1 additional damage and Gain 1 additional #yBlock."
+            "#ymysticmod:Кантрип наносят 1 дополнительного урона и дают 1 дополнительной #yЗащиты."
         ]
     },
     "mysticmod:BlessedBook": {
-        "NAME": "Blessed Book",
-        "FLAVOR": "A Мощный Чары Book enchanted with mysterious magics.",
+        "NAME": "Благословленная книга",
+        "FLAVOR": "Могущественная Книга Чар, заколдованная таинственной магией.",
         "DESCRIPTIONS": [
-            "Replaces #ySpellBook. Every ",
-            " turns, add a random #ymysticmod:Cantrip to your hand."
+            "Заменяет #yКнигу #yЧар. Каждый ",
+            " ходов, добавляет #ymysticmod:Кантрип в руку."
         ]
     },
     "mysticmod:CrystalBall": {
-        "NAME": "Crystal BВСЕМ",
-        "FLAVOR": "Cannot interface with Palantír, Pensieves, ScrybВСЕМ, Gramerhain, Shiral crystals, or Urim and Thummim",
+        "NAME": "Хрустальный шар",
+        "FLAVOR": "Не может взаимодействовать с Палантиром, Омутами, Скрайболлом, Ширальными кристаллами, или Уримом и Туммиумом",
         "DESCRIPTIONS": [
-            "All non [#FF5252]Arte[] skills are [#5299DC]Spells[], and all non [#5299DC]Spell[] attacks are [#FF5252]Artes[]."
+            "ВСЕ навыки не-[#FF5252]Умения[] являются [#5299DC]Чарами[], и ВСЕ атаки не-[#5299DC]Чары[] являются [#FF5252]Умениями[]."
         ]
     },
     "mysticmod:DeckOfManyThings": {
-        "NAME": "Deck Of Many Things",
-        "FLAVOR": "It's a mystery why anyone would represent magical effects as a deck of cards.",
+        "NAME": "Колода многих вещей",
+        "FLAVOR": "Загадка, почему хоть кто-то отразит магические эффекты как колоду карт.",
         "DESCRIPTIONS": [
-            "Gain [E] at the start of each turn. At the end of each turn, if you did not play two [#5299DC]Spells[] and two [#FF5252]Artes[], lose 2 HP."
+            "Даёт [E] в начале каждого вашего хода. Отнимает 2 ОЗ, если вы не разыграли двое [#5299DC]Чар[] и два [#FF5252]Умения[] в конце вашего хода."
         ]
     },
     "mysticmod:Kama": {
-        "NAME": "Kama",
-        "FLAVOR": "Commonly used to reap wheat and souls.",
+        "NAME": "Коса",
+        "FLAVOR": "Повсеместно используется для пожинания пшеницы и душ.",
         "DESCRIPTIONS": [
-            "Every fifth card you play, gain 1 #yStrength if that card was an [#FF5252]Arte[], and gain 1 #yDexterity if that card was a [#5299DC]Spell[]."
+            "Когда вы разыгрываете 5-ю карту, дает 1 #yСилы, если эта карта - [#FF5252]Умение[], и дает 1 #yЛовкости, если эта карта - [#5299DC]Чары[]."
         ]
     },
     "mysticmod:RunicPrism": {
-        "NAME": "Runic Prism",
-        "FLAVOR": "The dark side of the moon god.",
+        "NAME": "Руническая призма",
+        "FLAVOR": "Темная сторона лунного бога.",
         "DESCRIPTIONS": [
-            "Whenever you play a [#5299DC]Spell[], deal 3 damage to a random enemy."
+            "Наносит 3 урона случ. врагу при розыгрыше [#5299DC]Чар[]."
         ]
     },
     "mysticmod:RabbitsFoot": {
-        "NAME": "Rabbit's Foot",
-        "FLAVOR": "Said to bring good luck to its holder.",
+        "NAME": "Кроличья лапка",
+        "FLAVOR": "Говорят, что она приносит удачу владельцу.",
         "DESCRIPTIONS": [
-            "Whenever you play an [#FF5252]Arte[], Gain 1 block."
+            "Дает 1 Защиты при розыгрыше [#FF5252]Умения[] ."
         ]
     },
     "mysticmod:SpellBook": {
-        "NAME": "Чары Book",
-        "FLAVOR": "A special tome unique to every caster. Contains records of Чар that only the writer understands.",
+        "NAME": "Книга заклинаний",
+        "FLAVOR": "Особенная книга, уникальная для каждого заклинателя. В ней записи Чар, которые понимает только владелец.",
         "DESCRIPTIONS": [
-            "At the start of each combat, add a random #ymysticmod:Cantrip to your hand."
+            "Добавляет в руку случ. #ymysticmod:Кантрип в руку в начале боя."
         ]
     },
     "mysticmod:TrainingManual": {
-        "NAME": "Training Manual",
-        "FLAVOR": "An instructional booklet containing illustrated diagrams for various fighting styles. The handwriting is oddly фамильяр.",
+        "NAME": "Тренировочное пособие",
+        "FLAVOR": "Обучающий буклет, содержащий иллюстрированные схемы различных боевых стилей. Почерк до странности знаком.",
         "DESCRIPTIONS": [
-            "At the start of each combat, add a random [#FF5252]Arte[] to your hand"
+            "Добавляет в руку случ. [#FF5252]Умение[] в руку в начале боя"
         ]
     }
 }

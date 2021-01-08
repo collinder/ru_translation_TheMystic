@@ -2,37 +2,37 @@
     "CANTRIP": {
         "PROPER_NAME": "Кантрип",
         "NAMES": [
-            "cantrip",
-            "cantrips"
+            "кантрип",
+            "кантрипы"
         ],
-        "DESCRIPTION": "Considered a [#5299DC]Spell[] so long as you have fewer than 2 stacks of [#5299DC]Power[]."
+        "DESCRIPTION": "Является [#5299DC]Чарами[], пока у вас меньше 2 [#5299DC]Мощи[]."
     },
     "FEAT": {
         "PROPER_NAME": "Мастерство",
         "NAMES": [
-            "feat"
+            "мастерство"
         ],
-        "DESCRIPTION": "Can only be played as the first [#FF5252]Arte[] of the turn."
+        "DESCRIPTION": "Может быть только первым разыгранным [#FF5252]Умением[] в ходу."
     },
     "SPELLPOWER": {
-        "PROPER_NAME": "Spellмощь",
+        "PROPER_NAME": "Интеллект",
         "NAMES": [
-            "spellpower"
+            "интеллект"
         ],
-        "DESCRIPTION": "Increases the Защиты gained from and урона dealt by [#5299DC]Spells[]."
+        "DESCRIPTION": "Увеличивает Защиту и урон [#5299DC]Чар[]."
     },
     "STONESKIN": {
-        "PROPER_NAME": "Камнекожи",
+        "PROPER_NAME": "Камнекожа",
         "NAMES": [
-            "stoneskin"
+            "камнекожи"
         ],
-        "DESCRIPTION": "Gives 2 Защиты at the start of each turn. This Защиты is affected by any Защиты-affecting мощь."
+        "DESCRIPTION": "Дает 2 Защиты в начале каждого вашего хода. На эту Защиту влияют все модификаторы на Защиту."
     },
     "TECHNIQUE": {
-        "PROPER_NAME": "Technique",
+        "PROPER_NAME": "Техника",
         "NAMES": [
-            "technique"
+            "Техника"
         ],
-        "DESCRIPTION": "Increases the Защиты gained from and урона dealt by [#FF5252]Artes[]."
+        "DESCRIPTION": "Увеличивает урон и Защиту [#FF5252]Умений[]."
     }
 }
