@@ -292,7 +292,7 @@
     },
     "mysticmod:MirrorEntity": {
         "NAME": "Зеркальная сущность",
-        "DESCRIPTION": "[#5299DC]Чары[] и [#FF5252]Умения[] также дают [#5299DC]Мощь[] и [#FF5252]Баланс[] в след. ходу.",
+        "DESCRIPTION": "[#5299DC]Чары[] и [#FF5252]Умения[] также дают [#5299DC]Мощь[] или [#FF5252]Баланс[] в след. ходу.",
         "UPGRADE_DESCRIPTION": ""
     },
     "mysticmod:MirrorStrike": {
