@@ -200,7 +200,7 @@
     },
     "mysticmod:Flurry": {
         "NAME": "Шквал",
-        "DESCRIPTION": "Наносит !D! урона !M! раз. NL [#5299DC]Мощный[]: !mysticmod:M2! урона раз вместо этого",
+        "DESCRIPTION": "Наносит !D! урона !M! раз. NL [#5299DC]Мощный[]: Наносит урон !mysticmod:M2! раз вместо этого",
         "UPGRADE_DESCRIPTION": ""
     },
     "mysticmod:Fly": {
