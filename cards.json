@@ -92,7 +92,7 @@
     "mysticmod:CorrosiveTouch": {
         "NAME": "Едкое прикосновение",
         "DESCRIPTION": "Наносит !D! урона.",
-        "UPGRADE_DESCRIPTION": "Наносит !D! урона. NL Вы начинаете след. ход с [#5299DC]Мощью[]."
+        "UPGRADE_DESCRIPTION": "Наносит !D! урона. NL Даёт 1 [#5299DC]Мощи[] в начале след. хода."
     },
     "mysticmod:CureLightWounds": {
         "NAME": "Лечение легких ранений",
@@ -124,7 +124,7 @@
     },
     "mysticmod:Disengage": {
         "NAME": "Отход",
-        "DESCRIPTION": "Дает !B! Защиты. NL Вы начинаете след. ход с [#FF5252]Балансом[].",
+        "DESCRIPTION": "Дает !B! Защиты. NL Даёт 1 [#FF5252]Баланса[] в начале след. хода.",
         "UPGRADE_DESCRIPTION": ""
     },
     "mysticmod:Disintegrate": {
@@ -138,7 +138,7 @@
         "UPGRADE_DESCRIPTION": "",
         "EXTENDED_DESCRIPTION": [
             " NL (",
-            " Карт.)",
+            " Карты.)",
             " Карты.)"
         ]
     },
