@@ -330,7 +330,7 @@
     },
     "mysticmod:PowerSlash": {
         "NAME": "Могучее разрубание",
-        "DESCRIPTION": "Наносит !D! урона. NL Дает дополнительный [#FF5252]Баланс[].",
+        "DESCRIPTION": "Наносит !D! урона. NL Дает доп. [#FF5252]Баланс[].",
         "UPGRADE_DESCRIPTION": ""
     },
     "mysticmod:PreparedCaster": {
@@ -340,13 +340,13 @@
     },
     "mysticmod:Prestidigitation": {
         "NAME": "Фокус",
-        "DESCRIPTION": "mysticmod:Кантрип. NL Дает !B! Защиты. Вы берёте карту.",
+        "DESCRIPTION": "mysticmod:Кантрип. NL Дает !B! Защиты. Вы берёте 1 карту.",
         "UPGRADE_DESCRIPTION": ""
     },
     "mysticmod:Probe": {
         "NAME": "Прощупать",
         "DESCRIPTION": "Наносит !D! урона.",
-        "UPGRADE_DESCRIPTION": "Наносит !D! урона. NL Дает 1 [#FF5252]Баланс[] в NL вашем след. ходу."
+        "UPGRADE_DESCRIPTION": "Наносит !D! урона. NL Дает 1 [#FF5252]Баланса[] в NL вашем след. ходу."
     },
     "mysticmod:PunishingArmor": {
         "NAME": "Карающая броня",
@@ -365,12 +365,12 @@
     },
     "mysticmod:RapidCaster": {
         "NAME": "Скоростной заклинатель",
-        "DESCRIPTION": "В начале вашего хода первый mysticmod:Кантрип разыгрывается дважды.",
-        "UPGRADE_DESCRIPTION": "Начальная. NL В начале вашего хода первый mysticmod:Кантрип разыгрывается дважды."
+        "DESCRIPTION": "Первый разыгранный в каждом ходу mysticmod:Кантрип разыгрывается дважды.",
+        "UPGRADE_DESCRIPTION": "Начальная. NL Первый разыгранный в каждом ходу mysticmod:Кантрип разыгрывается дважды."
     },
     "mysticmod:RayOfFrost": {
         "NAME": "Замораживающий луч",
-        "DESCRIPTION": "mysticmod:Кантрип. NL Наносит !D! урона. Дает !B! Защиты. Вы берёте карту.",
+        "DESCRIPTION": "mysticmod:Кантрип. NL Наносит !D! урона. Дает !B! Защиты. Вы берёте 1 карту.",
         "UPGRADE_DESCRIPTION": ""
     },
     "mysticmod:ReadMagic": {
