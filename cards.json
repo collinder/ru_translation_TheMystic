@@ -109,7 +109,7 @@
     },
     "mysticmod:Dedication": {
         "NAME": "Преданность",
-        "DESCRIPTION": "Дает !M! Силы and Ловкости. NL  Можно Улучшать неограниченное количество раз.",
+        "DESCRIPTION": "Дает !M! Силы и Ловкости. NL  Можно Улучшать неограниченное количество раз.",
         "UPGRADE_DESCRIPTION": ""
     },
     "mysticmod:Defend_Mystic": {
