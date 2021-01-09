@@ -385,7 +385,7 @@
     },
     "mysticmod:Snowball": {
         "NAME": "Снежок",
-        "DESCRIPTION": "Наносит !D! урона. NL Дает доболнительную [#5299DC]Мощь[].",
+        "DESCRIPTION": "Наносит !D! урона. NL Дает доп. [#5299DC]Мощь[].",
         "UPGRADE_DESCRIPTION": ""
     },
     "mysticmod:Spark": {
