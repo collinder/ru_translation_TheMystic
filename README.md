@@ -1,6 +1,6 @@
 
 Русский перевод для мода Slay the Spire под названием TheMystic от автора Johnny_Devo 
-
+ДЛЯ ВКЛЮЧЕНИЯ САМОЙ ЛУЧШЕЙ КАРТЫ В МОДЕ НУЖЕН ЕЩЕ МОД friendlyminions! https://steamcommunity.com/workshop/filedetails/?id=1612426481 - он находится тут.
 
 Инструкция по установке
 
