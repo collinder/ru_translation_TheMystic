@@ -18,7 +18,7 @@
     },
     "mysticmod:AcidSplash": {
         "NAME": "Брызги кислоты",
-        "DESCRIPTION": "mysticmod:Кантрип. NL Наносит !D! урона. Вы берёте карту.",
+        "DESCRIPTION": "mysticmod:Трюк. NL Наносит !D! урона. Вы берёте карту.",
         "UPGRADE_DESCRIPTION": "" 
     }, 
     "mysticmod:Alacrity": { 
@@ -76,7 +76,7 @@
     },
     "mysticmod:ComboCaster": {
         "NAME": "Маг-комбинатор",
-        "DESCRIPTION": "Вы добавляете в руку случ. mysticmod:Кантрип и берёте на 1 карту меньше в начале каждого вашего хода.",
+        "DESCRIPTION": "Вы добавляете в руку случ. mysticmod:Трюк и берёте на 1 карту меньше в начале каждого вашего хода.",
         "UPGRADE_DESCRIPTION": ""
     },
     "mysticmod:ComponentsPouch": {
@@ -164,19 +164,19 @@
     },
     "mysticmod:EnergizedRift": {
         "NAME": "Заряженный разрыв",
-        "DESCRIPTION": "[#FF5252]Сбалансированный[]: Добавляет случ. mysticmod:Кантрип в стопку сброса за каждый [#FF5252]Баланс[]. NL Сжигается.",
-        "UPGRADE_DESCRIPTION": "[#FF5252]Сбалансированный[]: Добавляет случ. Улучшенный  mysticmod:Кантрип в стопку сброса за каждый [#FF5252]Баланс[]. NL Сжигается.",
+        "DESCRIPTION": "[#FF5252]Сбалансированный[]: Добавляет случ. mysticmod:Трюк в стопку сброса за каждый [#FF5252]Баланс[]. NL Сжигается.",
+        "UPGRADE_DESCRIPTION": "[#FF5252]Сбалансированный[]: Добавляет случ. Улучшенный  mysticmod:Трюк в стопку сброса за каждый [#FF5252]Баланс[]. NL Сжигается.",
         "EXTENDED_DESCRIPTION": [
             " NL (",
-            " mysticmod:Кантрип. )",
-            " mysticmod:Кантрип. )",
+            " mysticmod:Трюк. )",
+            " mysticmod:Трюк. )",
             "У меня нет [#FF5252]Баланса[]!"
         ]
     },
     "mysticmod:Feint": {
         "NAME": "Финт",
-        "DESCRIPTION": "Наносит !D! урона. Добавляет случайный mysticmod:Кантрип в стопку добора.",
-        "UPGRADE_DESCRIPTION": "Наносит !D! урона. Добавляет случайный Улучшенный mysticmod:Кантрип в стопку добора."
+        "DESCRIPTION": "Наносит !D! урона. Добавляет случайный mysticmod:Трюк в стопку добора.",
+        "UPGRADE_DESCRIPTION": "Наносит !D! урона. Добавляет случайный Улучшенный mysticmod:Трюк в стопку добора."
     },
     "mysticmod:Fireball": {
         "NAME": "Огненный шар",
@@ -340,7 +340,7 @@
     },
     "mysticmod:Prestidigitation": {
         "NAME": "Фокус",
-        "DESCRIPTION": "mysticmod:Кантрип. NL Дает !B! Защиты. Вы берёте 1 карту.",
+        "DESCRIPTION": "mysticmod:Трюк. NL Дает !B! Защиты. Вы берёте 1 карту.",
         "UPGRADE_DESCRIPTION": ""
     },
     "mysticmod:Probe": {
@@ -365,18 +365,18 @@
     },
     "mysticmod:RapidCaster": {
         "NAME": "Скоростной маг",
-        "DESCRIPTION": "Первый разыгранный в каждом ходу mysticmod:Кантрип разыгрывается дважды.",
-        "UPGRADE_DESCRIPTION": "Начальная. NL Первый разыгранный в каждом ходу mysticmod:Кантрип разыгрывается дважды."
+        "DESCRIPTION": "Первый разыгранный в каждом ходу mysticmod:Трюк разыгрывается дважды.",
+        "UPGRADE_DESCRIPTION": "Начальная. NL Первый разыгранный в каждом ходу mysticmod:Трюк разыгрывается дважды."
     },
     "mysticmod:RayOfFrost": {
         "NAME": "Замораживающий луч",
-        "DESCRIPTION": "mysticmod:Кантрип. NL Наносит !D! урона. Дает !B! Защиты. Вы берёте 1 карту.",
+        "DESCRIPTION": "mysticmod:Трюк. NL Наносит !D! урона. Дает !B! Защиты. Вы берёте 1 карту.",
         "UPGRADE_DESCRIPTION": ""
     },
     "mysticmod:ReadMagic": {
         "NAME": "Чтение магии",
-        "DESCRIPTION": "mysticmod:Кантрип. NL Вы берёте !M! карты, NL затем сбрасываете 1 карту. Сжигается.",
-        "UPGRADE_DESCRIPTION": "mysticmod:Кантрип. NL Вы берёте !M! карты, NL затем сбрасываете 2 карты. Сжигается."
+        "DESCRIPTION": "mysticmod:Трюк. NL Вы берёте !M! карты, NL затем сбрасываете 1 карту. Сжигается.",
+        "UPGRADE_DESCRIPTION": "mysticmod:Трюк. NL Вы берёте !M! карты, NL затем сбрасываете 2 карты. Сжигается."
     },
     "mysticmod:Riposte": {
         "NAME": "Контратака",
@@ -390,8 +390,8 @@
     },
     "mysticmod:Spark": {
         "NAME": "Искра",
-        "DESCRIPTION": "mysticmod:Кантрип. NL Вы берёте карту NL Даёт [E], если вы берёте [#5299DC]Чары[] или [#FF5252]Умение[]. NL Сжигается.",
-        "UPGRADE_DESCRIPTION": "mysticmod:Кантрип. NL Вы берёте карту NL Даёт [E], если вы берёте [#5299DC]Чары[] или [#FF5252]Умение[]."
+        "DESCRIPTION": "mysticmod:Трюк. NL Вы берёте карту NL Даёт [E], если вы берёте [#5299DC]Чары[] или [#FF5252]Умение[]. NL Сжигается.",
+        "UPGRADE_DESCRIPTION": "mysticmod:Трюк. NL Вы берёте карту NL Даёт [E], если вы берёте [#5299DC]Чары[] или [#FF5252]Умение[]."
     },
     "mysticmod:SpellCombat": {
         "NAME": "Боевая магия",
@@ -463,7 +463,7 @@
     },
     "mysticmod:TomeOfSpells": {
         "NAME": "Том с заклинаниями",
-        "DESCRIPTION": "Добавляет !M! случ. mysticmod:Кантрип в стопку сброса. NL Сжигается.",
+        "DESCRIPTION": "Добавляет !M! случ. mysticmod:Трюк в стопку сброса. NL Сжигается.",
         "UPGRADE_DESCRIPTION": ""
     },
     "mysticmod:VorpalThrust": {
