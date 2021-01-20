@@ -463,7 +463,7 @@
     },
     "mysticmod:TomeOfSpells": {
         "NAME": "Том с заклинаниями",
-        "DESCRIPTION": "Добавляет !M! случ. mysticmod:Трюка в стопку сброса. NL Сжигается.",
+        "DESCRIPTION": "Добавляет !M! случ. mysticmod:Трюка в стопку добора. NL Сжигается.",
         "UPGRADE_DESCRIPTION": ""
     },
     "mysticmod:VorpalThrust": {
